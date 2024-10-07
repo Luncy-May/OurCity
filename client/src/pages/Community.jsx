@@ -17,7 +17,7 @@ const Community = ({ Darkmode }) => {
         <div>
             <div className='space-y-10 p-3 overflow-hidden'>
                 <div className='flex flex-col items-center justify-center'>
-                    <div className='pt-5 space-y-5 text-4xl font-bold'>Welcome to the EcoTravel Community</div>
+                    <div className='pt-5 space-y-5 text-4xl font-bold'>Welcome to the OurCity Community</div>
                 </div>
                 {/* Sub-routes for Community */}
                 <Routes>
@@ -33,7 +33,7 @@ const Community = ({ Darkmode }) => {
         <div>
             <div className=' p-3 overflow-hidden'>
                 <div className='flex flex-col items-center justify-center'>
-                    <div className='pt-5 space-y-5 text-4xl font-bold'>Welcome to the EcoTravel Community</div>
+                    <div className='pt-5 space-y-5 text-4xl font-bold'>Welcome to the OurCity Community</div>
                 </div>
                 {/* Sub-routes for Community */}
                 <Routes>

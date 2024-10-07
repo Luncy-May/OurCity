@@ -23,7 +23,7 @@ const Home = () => {
             </div>
             <div>
                 <div ref={container} className="relative w-full h-full flex flex-col items-center justify-center overflow-hidden">
-                    <div className="text-white text-[140px] font-inter pt-[5vh] overflow-hidden whitespace-nowrap">Welcome to EcoTravel</div>
+                    <div className="text-white text-[140px] font-inter pt-[5vh] overflow-hidden whitespace-nowrap">Welcome to OurCity</div>
                     <div className='text-white overflow-hidden space-x-5 flex items-center justify-center font-inter '>
                         <div>
                             <div className='flex-shrink-0'>
@@ -59,7 +59,7 @@ const Home = () => {
                                         <FaSearch size={50} />
                                     </div>
                                     <div className='mt-2'>
-                                        Check out what other amazing people are doing with EcoTravel here!
+                                        Check out what other amazing people are doing with OurCity here!
                                     </div>
                                 </div>
                             </Link>
