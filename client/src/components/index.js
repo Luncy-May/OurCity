@@ -6,6 +6,7 @@ import BackgroundImage from "./BackgroundImage";
 import CityState from "./CityState";
 import Navbar from "./Navbar";
 import NavbarContents from "./NavbarContents";
+import StateInfo from "./StateInfo";
 export {
     Plan,
     Weather,
@@ -14,5 +15,6 @@ export {
     BackgroundImage,
     CityState,
     Navbar,
-    NavbarContents
+    NavbarContents,
+    StateInfo
 }

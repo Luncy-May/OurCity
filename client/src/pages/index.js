@@ -10,6 +10,7 @@ import Profile from "./Profile";
 import Setting from "./Setting";
 import Team from "./Team";
 import Support from "./Support";
+import EcoProfile from "./EcoProfile";
 export {
     NotAuthorizedPage,
     Report,
@@ -22,5 +23,6 @@ export {
     Profile,
     Setting,
     Team,
-    Support
+    Support,
+    EcoProfile
 }

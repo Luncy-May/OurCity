@@ -9,9 +9,8 @@ const EcoProfile = () => {
                         <div className='flex flex-col items-center justify-center'>
                             <div className='pt-5 space-y-5 text-4xl font-bold'>Welcome to the OurCity Community</div>
                         </div>
-                        {/* Sub-routes for Community */}
                         <Routes>
-                            <Route path="gallery" element={<Gallery />} />
+                            <Route path="ecoEducation" element={<EcoEducation />} />
                             <Route path="findFriends" element={<FindFriends />} />
                             <Route path="findClubs" element={<FindClubs />} />
                             <Route path="activities" element={<Activities />} />
@@ -25,7 +24,6 @@ const EcoProfile = () => {
                         <div className='flex flex-col items-center justify-center'>
                             <div className='pt-5 space-y-5 text-4xl font-bold'>Welcome to the OurCity Community</div>
                         </div>
-                        {/* Sub-routes for Community */}
                         <Routes>
                             <Route path="gallery" element={<Gallery />} />
                             <Route path="findFriends" element={<FindFriends />} />
