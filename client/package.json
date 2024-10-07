@@ -12,9 +12,11 @@
   "dependencies": {
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
+    "@gsap/react": "^2.1.1",
     "@mui/material": "^6.1.2",
     "@mui/x-charts": "^7.19.0",
     "@react-google-maps/api": "^2.19.3",
+    "gsap": "^3.12.5",
     "openmeteo": "^1.1.4",
     "postcss": "^8.4.47",
     "react": "^18.3.1",
