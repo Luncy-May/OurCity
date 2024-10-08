@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import { Activities, Feed, FindClubs, FindFriends, Gallery } from './CommunityPages'
 import NotAuthorizedPage from './NotAuthorizedPage'
+import ProtectedRoute from './ProtectedRoutes'
 const Community = ({ Darkmode }) => {
     const username = localStorage.getItem("username");
     const userID = localStorage.getItem("userID");
