@@ -43,7 +43,7 @@ export default function Login() {
                 alert("Welcome Back, "+ data.username + "!")
                 localStorage.setItem("userID", data.userID)
                 localStorage.setItem("username", data.username)
-                navigate("/")
+                navigate(`/Dashboard/${userID}`);
             }  
             // ...
         } catch (error) {

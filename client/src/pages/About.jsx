@@ -9,7 +9,7 @@ const About = () => {
         <div className='absolute w-full h-full z-10 brightness-50'>
           <BackgroundImage name="about" imagePath={"/locationSearch.jpg"} />
         </div>
-        <div className="text-gray-300 z-50 text-[120px] font-inter overflow-hidden whitespace-nowrap">Our Missions</div>
+        <div className="text-gray-300 z-20 text-[120px] font-inter overflow-hidden whitespace-nowrap">Our Missions</div>
         <div className='text-gray-300 overflow-hidden flex items-center justify-center font-inter '>
           <div className='z-20'>
             <div className='flex-shrink-0'>

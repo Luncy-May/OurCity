@@ -3,7 +3,7 @@ import { Navbar } from './components'
 import { Routes, Route } from 'react-router-dom';
 import { Community, About, Calendar, Dashboard, Home, MyPlans, Profile, Setting, Support, Team, EcoProfile} from './pages';
 import { Login, Register, Delete } from './pages/AuthPages';
-// npm install @mui/material @emotion/react @emotion/styled react-router-dom @mui/x-charts react-draggable openmeteo @react-google-maps/api react-icons
+// npm install @mui/material @emotion/react @emotion/styled react-router-dom @mui/x-charts react-draggable openmeteo @react-google-maps/api react-icons react-leaflet
 // npm install  gsap 
 // npm install  @gsap/react
 // npm i -S react-simple-maps
