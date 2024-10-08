@@ -21,11 +21,11 @@ const Community = ({ Darkmode }) => {
                 </div>
                 {/* Sub-routes for Community */}
                 <Routes>
-                    <Route path="gallery" element={<Gallery />} />
-                    <Route path="findFriends" element={<FindFriends />} />
-                    <Route path="findClubs" element={<FindClubs />} />
-                    <Route path="activities" element={<Activities />} />
-                    <Route path="feed" element={<Feed />} />
+                    <Route path="gallery" element={<ProtectedRoute><Gallery /></ProtectedRoute>} />
+                    <Route path="findFriends" element={<ProtectedRoute><FindFriends /></ProtectedRoute>} />
+                    <Route path="findClubs" element={<ProtectedRoute><FindClubs /></ProtectedRoute>} />
+                    <Route path="activities" element={<ProtectedRoute><Activities /></ProtectedRoute>} />
+                    <Route path="feed" element={<ProtectedRoute><Feed /></ProtectedRoute>} />
                 </Routes>
             </div>
         </div>
@@ -37,11 +37,11 @@ const Community = ({ Darkmode }) => {
                 </div>
                 {/* Sub-routes for Community */}
                 <Routes>
-                    <Route path="gallery" element={<Gallery />} />
-                    <Route path="findFriends" element={<FindFriends />} />
-                    <Route path="findClubs" element={<FindClubs />} />
-                    <Route path="activities" element={<Activities />} />
-                    <Route path="feed" element={<Feed />} />
+                    <Route path="gallery" element={<ProtectedRoute><Gallery /></ProtectedRoute>} />
+                    <Route path="findFriends" element={<ProtectedRoute><FindFriends /></ProtectedRoute>} />
+                    <Route path="findClubs" element={<ProtectedRoute><FindClubs /></ProtectedRoute>} />
+                    <Route path="activities" element={<ProtectedRoute><Activities /></ProtectedRoute>} />
+                    <Route path="feed" element={<ProtectedRoute><Feed /></ProtectedRoute>} />
                 </Routes>
             </div>
             <NotAuthorizedPage />

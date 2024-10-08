@@ -10,11 +10,11 @@ const EcoProfile = () => {
                             <div className='pt-5 space-y-5 text-4xl font-bold'>Welcome to the OurCity Community</div>
                         </div>
                         <Routes>
-                            <Route path="ecoEducation" element={<EcoEducation />} />
-                            <Route path="findFriends" element={<FindFriends />} />
-                            <Route path="findClubs" element={<FindClubs />} />
-                            <Route path="activities" element={<Activities />} />
-                            <Route path="feed" element={<Feed />} />
+                            <Route path="ecoEducation" element={<ProtectedRoute><EcoEducation /></ProtectedRoute>} />
+                            <Route path="findFriends" element={<ProtectedRoute><FindFriends /></ProtectedRoute>} />
+                            <Route path="findClubs" element={<ProtectedRoute><FindClubs /></ProtectedRoute>} />
+                            <Route path="activities" element={<ProtectedRoute><Activities /></ProtectedRoute>} />
+                            <Route path="feed" element={<ProtectedRoute><Feed /></ProtectedRoute>} />
                         </Routes>
                     </div>
                 </div>
@@ -25,11 +25,11 @@ const EcoProfile = () => {
                             <div className='pt-5 space-y-5 text-4xl font-bold'>Welcome to the OurCity Community</div>
                         </div>
                         <Routes>
-                            <Route path="gallery" element={<Gallery />} />
-                            <Route path="findFriends" element={<FindFriends />} />
-                            <Route path="findClubs" element={<FindClubs />} />
-                            <Route path="activities" element={<Activities />} />
-                            <Route path="feed" element={<Feed />} />
+                            <Route path="gallery" element={<ProtectedRoute><Gallery /></ProtectedRoute>} />
+                            <Route path="findFriends" element={<ProtectedRoute><FindFriends /></ProtectedRoute>} />
+                            <Route path="findClubs" element={<ProtectedRoute><FindClubs /></ProtectedRoute>} />
+                            <Route path="activities" element={<ProtectedRoute><Activities /></ProtectedRoute>} />
+                            <Route path="feed" element={<ProtectedRoute><Feed /></ProtectedRoute>} />
                         </Routes>
                     </div>
                     <NotAuthorizedPage />

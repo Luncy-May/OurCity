@@ -11,6 +11,7 @@ import Setting from "./Setting";
 import Team from "./Team";
 import Support from "./Support";
 import EcoProfile from "./EcoProfile";
+import ProtectedRoute from "./ProtectedRoutes";
 export {
     NotAuthorizedPage,
     Report,
@@ -24,5 +25,6 @@ export {
     Setting,
     Team,
     Support,
-    EcoProfile
+    EcoProfile,
+    ProtectedRoute
 }
