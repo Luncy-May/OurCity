@@ -6,6 +6,7 @@ import { Login, Register, Delete } from './pages/AuthPages';
 // npm install @mui/material @emotion/react @emotion/styled react-router-dom @mui/x-charts react-draggable openmeteo @react-google-maps/api react-icons
 // npm install  gsap 
 // npm install  @gsap/react
+// npm i -S react-simple-maps
 function App() {
   return (
     <>

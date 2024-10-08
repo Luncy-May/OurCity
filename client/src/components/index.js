@@ -7,6 +7,7 @@ import CityState from "./CityState";
 import Navbar from "./Navbar";
 import NavbarContents from "./NavbarContents";
 import StateInfo from "./StateInfo";
+import ImageSwapper from "./ImageSwapper";
 export {
     Plan,
     Weather,
@@ -16,5 +17,6 @@ export {
     CityState,
     Navbar,
     NavbarContents,
-    StateInfo
+    StateInfo,
+    ImageSwapper
 }
