@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, Navigate } from 'react-router-dom';
 import NotAuthorizedPage from './NotAuthorizedPage';
-import { ImageSwapper } from '../components';
+import { ImageSwapper, Weather } from '../components';
+import { Plan } from '../components';
 const Dashboard = () => {
     const { userID } = useParams();  // Extract userID from the URL
     const storedUserID = localStorage.getItem('userID');
@@ -95,8 +96,6 @@ const Dashboard = () => {
 
         getDashboard();
     }, [isAuthorized, userID, username]);
-
-
     return (
         <div>
             {isAuthorized ? (
@@ -117,10 +116,19 @@ const Dashboard = () => {
                 <div>
                     {/* Pass the images array to the ImageSwapper component */}
                     <div className='pl-10 pr-10'>
-                        <NotAuthorizedPage /><div className='pt-5 space-y-5 text-xl font-bold'> Or you can try our living recommendation engine firsthead below! </div>
-                        <div className='w-[600px] h-[500px]'>
-                            <ImageSwapper images={images} />
+                        <div className='pt-5 space-y-5 text-4xl font-bold items-center justify-center pb-5'> You are not currently logged in, but you can still try our living recommendation engine firsthead below! </div>
+                        <div className='flex'>
+                            <div className='w-[700px] h-[400px] flex'>
+                                <ImageSwapper images={images} />
+                            </div>
+                            <div className='p-5'>
+                                <Weather />
+                            </div>
                         </div>
+                        <div>
+                            <Plan />
+                        </div>
+
                     </div>
 
                 </div>

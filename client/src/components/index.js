@@ -8,6 +8,7 @@ import Navbar from "./Navbar";
 import NavbarContents from "./NavbarContents";
 import StateInfo from "./StateInfo";
 import ImageSwapper from "./ImageSwapper";
+import ActivityChain from "./ActivityChain";
 export {
     Plan,
     Weather,
@@ -18,5 +19,6 @@ export {
     Navbar,
     NavbarContents,
     StateInfo,
-    ImageSwapper
+    ImageSwapper,
+    ActivityChain
 }

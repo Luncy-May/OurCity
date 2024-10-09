@@ -26,7 +26,7 @@ const ImageSwapper = ({ images }) => {
             <img
                 src={images[currentIndex]}
                 alt="Swapping images"
-                className={`w-full h-auto transition-opacity duration-1000 ${isVisible ? 'opacity-100' : 'opacity-0'}`}
+                className={`w-full h-full transition-opacity duration-1000 ${isVisible ? 'opacity-100' : 'opacity-0'}`}
             />
         </div>
     );

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Drag from './Drag'
 import List from './List'
-const Plan = ({ WeatherInformation }) => { // plan information container
+const Plan = () => { // plan information container
     const [list, setList] = useState([])
     const [intensity, setIntensity] = useState(0)
     const intensitySlide = (newValue) => {
@@ -40,9 +40,9 @@ const Plan = ({ WeatherInformation }) => { // plan information container
     return (
         <div className="p-5 space-y-5 font-bold items-center justify-center text-xl">
             <div>
-                <p className='text-center'>Personalized Plans</p>
+                <p className='text-center'>Personalized Exercise Plans</p>
             </div>
-            <div className='flex space-x-[2vw] '>
+            <div className='flex space-x-[2vw] items-center justify-center '>
                 <div className='min-w-[400px] border border-white shadow-md hover:shadow-2xl p-5'>
                     <div>
                         Intensity: {intensity}

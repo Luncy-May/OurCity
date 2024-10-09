@@ -98,7 +98,7 @@ const Weather = () => {
                             <div>{location}</div>
                         </div>
                     ) : (
-                        <div className="text-red-500 text-xl pt-5">
+                        <div className="text-red-500 text-2xl pt-5">
                             {errorLocationMessage || "Getting location..."}
                         </div>
                     )}
@@ -113,7 +113,7 @@ const Weather = () => {
                             <div className="text-4xl text-center animate-pulse duration-500 pt-5">{weatherCondition} </div>
                         </div>
                     ) : (
-                        <div className="text-red-500 text-xl pt-5">
+                        <div className="text-red-500 text-2xl pt-5">
                             {errorWeatherMessage || "Getting weather..."}
                         </div>
                     )}
